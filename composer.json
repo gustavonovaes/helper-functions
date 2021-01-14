@@ -1,0 +1,24 @@
+{
+  "name": "gustavonovaes/helper-functions",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.*",
+    "phpstan/phpstan": "^0.12.67"
+  },
+  "scripts": {
+    "test": "phpunit",
+    "analyse": "phpstan analyse -n src tests"
+  },
+  "autoload": {
+    "files": [
+      "src/general.php",
+      "src/array.php",
+      "src/date.php",
+      "src/string.php",
+      "src/number.php"
+    ]
+  }
+}
