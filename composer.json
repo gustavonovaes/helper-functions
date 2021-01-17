@@ -9,8 +9,7 @@
     "phpstan/phpstan": "^0.12.67"
   },
   "scripts": {
-    "test": "phpunit",
-    "analyse": "phpstan analyse -n src tests"
+    "analyse": "phpstan analyse -c ./phpstan.neon -n src tests"
   },
   "autoload": {
     "files": [

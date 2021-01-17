@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @param string|int $column
+ * @param string|int $key
  * @param mixed $value
  */
 function arrayFilterByKeyValue(array $array, $key, $value): array
